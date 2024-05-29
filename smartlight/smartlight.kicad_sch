@@ -1745,7 +1745,7 @@
 		(uuid "3b5d2d52-99b1-4c87-bf1a-5e89d22e59bd")
 	)
 	(no_connect
-		(at 215.9 87.63)
+		(at 214.63 87.63)
 		(uuid "6b3bafe9-045b-4e6b-8674-f2c5f733dbb7")
 	)
 	(no_connect
@@ -1930,7 +1930,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 82.55) (xy 212.09 82.55)
+			(xy 214.63 82.55) (xy 212.09 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2000,7 +2000,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 77.47) (xy 199.39 77.47)
+			(xy 214.63 77.47) (xy 199.39 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2040,7 +2040,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 85.09) (xy 215.9 85.09)
+			(xy 208.28 85.09) (xy 214.63 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2070,7 +2070,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 80.01) (xy 215.9 80.01)
+			(xy 199.39 80.01) (xy 214.63 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2646,7 +2646,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 238.76 144.78 0)
+		(at 241.3 149.86 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -2655,7 +2655,7 @@
 		(fields_autoplaced yes)
 		(uuid "11c762d3-8a85-4dd7-9412-203b5ab4f10f")
 		(property "Reference" "FID2"
-			(at 241.3 143.5099 0)
+			(at 243.84 148.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2664,7 +2664,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 241.3 146.0499 0)
+			(at 243.84 151.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2673,7 +2673,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 238.76 144.78 0)
+			(at 241.3 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2682,7 +2682,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 144.78 0)
+			(at 241.3 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2691,7 +2691,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 238.76 144.78 0)
+			(at 241.3 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3114,7 +3114,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 36.83 119.38 0)
+		(at 209.55 151.13 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -3123,7 +3123,7 @@
 		(fields_autoplaced yes)
 		(uuid "6b42b1d8-ddd1-4b3e-ab61-adf87827898d")
 		(property "Reference" "H3"
-			(at 39.37 118.1099 0)
+			(at 212.09 149.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3132,7 +3132,7 @@
 			)
 		)
 		(property "Value" "mousebite"
-			(at 39.37 120.6499 0)
+			(at 212.09 152.3999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3141,7 +3141,7 @@
 			)
 		)
 		(property "Footprint" "taki-library:mousebites_1mm"
-			(at 36.83 119.38 0)
+			(at 209.55 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3150,7 +3150,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 119.38 0)
+			(at 209.55 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3159,7 +3159,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 36.83 119.38 0)
+			(at 209.55 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3529,7 +3529,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 36.83 113.03 0)
+		(at 191.77 157.48 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -3538,7 +3538,7 @@
 		(fields_autoplaced yes)
 		(uuid "87df5254-67c8-4017-a8de-6059de081934")
 		(property "Reference" "H2"
-			(at 39.37 111.7599 0)
+			(at 194.31 156.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3547,7 +3547,7 @@
 			)
 		)
 		(property "Value" "mousebite"
-			(at 39.37 114.2999 0)
+			(at 194.31 158.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3556,7 +3556,7 @@
 			)
 		)
 		(property "Footprint" "taki-library:mousebites_1mm"
-			(at 36.83 113.03 0)
+			(at 191.77 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3565,7 +3565,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 113.03 0)
+			(at 191.77 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3574,7 +3574,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 36.83 113.03 0)
+			(at 191.77 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3659,7 +3659,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 223.52 152.4 0)
+		(at 226.06 157.48 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -3668,7 +3668,7 @@
 		(fields_autoplaced yes)
 		(uuid "8afadb81-8a03-4771-85e9-bdbdb009259a")
 		(property "Reference" "FID3"
-			(at 226.06 151.1299 0)
+			(at 228.6 156.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3677,7 +3677,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 226.06 153.6699 0)
+			(at 228.6 158.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3686,7 +3686,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 223.52 152.4 0)
+			(at 226.06 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3695,7 +3695,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 223.52 152.4 0)
+			(at 226.06 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3704,7 +3704,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 223.52 152.4 0)
+			(at 226.06 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3723,7 +3723,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 36.83 125.73 0)
+		(at 209.55 157.48 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -3732,7 +3732,7 @@
 		(fields_autoplaced yes)
 		(uuid "936442dc-358b-4f7d-8a58-7693788ef70d")
 		(property "Reference" "H4"
-			(at 39.37 124.4599 0)
+			(at 212.09 156.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3741,7 +3741,7 @@
 			)
 		)
 		(property "Value" "mousebite"
-			(at 39.37 126.9999 0)
+			(at 212.09 158.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3750,7 +3750,7 @@
 			)
 		)
 		(property "Footprint" "taki-library:mousebites_1mm"
-			(at 36.83 125.73 0)
+			(at 209.55 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3759,7 +3759,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 125.73 0)
+			(at 209.55 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3768,7 +3768,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 36.83 125.73 0)
+			(at 209.55 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3853,7 +3853,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 36.83 106.68 0)
+		(at 191.77 151.13 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -3862,7 +3862,7 @@
 		(fields_autoplaced yes)
 		(uuid "9c0534e3-3912-4cfb-a705-2e8189d970cd")
 		(property "Reference" "H1"
-			(at 39.37 105.4099 0)
+			(at 194.31 149.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3871,7 +3871,7 @@
 			)
 		)
 		(property "Value" "mousebite"
-			(at 39.37 107.9499 0)
+			(at 194.31 152.3999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3880,7 +3880,7 @@
 			)
 		)
 		(property "Footprint" "taki-library:mousebites_1mm"
-			(at 36.83 106.68 0)
+			(at 191.77 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3889,7 +3889,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 106.68 0)
+			(at 191.77 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3898,7 +3898,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 36.83 106.68 0)
+			(at 191.77 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3987,7 +3987,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 223.52 144.78 0)
+		(at 226.06 149.86 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -3996,7 +3996,7 @@
 		(fields_autoplaced yes)
 		(uuid "9d80874b-9086-40ff-ad88-1abdcb4669f2")
 		(property "Reference" "FID1"
-			(at 226.06 143.5099 0)
+			(at 228.6 148.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4005,7 +4005,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 226.06 146.0499 0)
+			(at 228.6 151.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4014,7 +4014,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 223.52 144.78 0)
+			(at 226.06 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4023,7 +4023,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 223.52 144.78 0)
+			(at 226.06 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4032,7 +4032,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 223.52 144.78 0)
+			(at 226.06 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4051,7 +4051,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 238.76 152.4 0)
+		(at 241.3 157.48 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -4060,7 +4060,7 @@
 		(fields_autoplaced yes)
 		(uuid "9ff594aa-630f-414e-8021-6923df51a1e6")
 		(property "Reference" "FID4"
-			(at 241.3 151.1299 0)
+			(at 243.84 156.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4069,7 +4069,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 241.3 153.6699 0)
+			(at 243.84 158.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4078,7 +4078,7 @@
 			)
 		)
 		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
-			(at 238.76 152.4 0)
+			(at 241.3 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4087,7 +4087,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 152.4 0)
+			(at 241.3 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4096,7 +4096,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 238.76 152.4 0)
+			(at 241.3 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4717,16 +4717,16 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x05")
-		(at 220.98 82.55 0)
+		(at 219.71 82.55 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e2c2b787-f5be-4974-a80d-874d34ef7cf3")
 		(property "Reference" "J2"
-			(at 223.52 81.2799 0)
+			(at 222.25 83.8201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4735,7 +4735,7 @@
 			)
 		)
 		(property "Value" "Conn_01x05"
-			(at 223.52 83.8199 0)
+			(at 222.25 81.2801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4744,7 +4744,7 @@
 			)
 		)
 		(property "Footprint" "taki-library:ENDO_CONTROLLER"
-			(at 220.98 82.55 0)
+			(at 219.71 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4753,7 +4753,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 220.98 82.55 0)
+			(at 219.71 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4762,7 +4762,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 220.98 82.55 0)
+			(at 219.71 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)

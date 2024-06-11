@@ -44,15 +44,17 @@ light:
     name: None
     restore_mode: ALWAYS_ON
     output: pwm_output
-    power_supply: power_output
+    on_turn_on:
+    - output.turn_on: power_output
+    on_turn_off:
+    - output.turn_off: power_output
+
 
 output:
   - platform: esp8266_pwm
     id: pwm_output
     pin: GPIO14
-    inverted: true
     frequency: 1000 Hz
-
-power_supply:
-  - id: power_output
+  - platform: gpio
+    id: power_output
     pin: GPIO12

@@ -12,7 +12,7 @@ esphome:
     name: "taki-d.endo-lighting-controller"
     version: "${project_version}"
   includes:
-    - user_interface.h
+    - calibration.c
 
 dashboard_import:
   package_import_url: github://taki-d/endo_lighting_controller/esphome.yaml@main

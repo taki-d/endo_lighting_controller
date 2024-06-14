@@ -51,7 +51,9 @@ light:
     - output.turn_on: power_output
     on_turn_off:
     - output.turn_off: power_output
-
+  - platform: status_led
+    name: "Switch state"
+    pin: GPIO2
 
 output:
   - platform: esp8266_pwm

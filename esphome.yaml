@@ -46,7 +46,7 @@ light:
     name: None
     restore_mode: ALWAYS_ON
     output: pwm_output
-    default_transition_length: 0
+    default_transition_length: 0s
     on_turn_on:
     - output.turn_on: power_output
     on_turn_off:

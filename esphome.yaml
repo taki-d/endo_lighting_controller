@@ -39,6 +39,11 @@ captive_portal:
 # To have a "next url" for improv serial
 web_server:
 
+status_led:
+  pin:
+    number: GPIO2
+    inverted: true
+
 light:
   - platform: monochromatic
     name: None
@@ -49,9 +54,6 @@ light:
     - output.turn_on: power_output
     on_turn_off:
     - output.turn_off: power_output
-  - platform: status_led
-    name: "Switch state"
-    pin: GPIO2
 
 output:
   - platform: esp8266_pwm

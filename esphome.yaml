@@ -1,7 +1,7 @@
 substitutions:
   device_name: endo-lighting-controller
   friendly_name: Endo Lighting Controller
-  project_version: "0.0.1"
+  project_version: "0.0.2"
   device_description: "Control for Endo LED Lights."
 
 esphome:

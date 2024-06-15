@@ -11,10 +11,6 @@ esphome:
   project:
     name: "taki-d.endo-lighting-controller"
     version: "${project_version}"
-  on_boot:
-    then:
-      - lambda: |- 
-          system_phy_set_powerup_option(2);
 
 dashboard_import:
   package_import_url: github://taki-d/endo_lighting_controller/esphome.yaml@main

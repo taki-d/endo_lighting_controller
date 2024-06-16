@@ -47,11 +47,12 @@ web_server:
 status_led:
   pin:
     number: GPIO2
+    inverted: true
 
 light:
   - platform: monochromatic
     name: None
-    restore_mode: ALWAYS_ON
+    restore_mode: RESTORE_DEFAULT_ON
     output: pwm_output
     default_transition_length: 0.5s
     on_turn_on:

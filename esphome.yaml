@@ -51,7 +51,8 @@ status_led:
 
 light:
   - platform: monochromatic
-    name: None
+    name: '${friendly_name}'
+    internal: false
     restore_mode: RESTORE_DEFAULT_ON
     output: pwm_output
     default_transition_length: 0.5s

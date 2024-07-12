@@ -1,7 +1,7 @@
 substitutions:
   device_name: endo-lighting-controller
   friendly_name: Endo Lighting Controller
-  project_version: "0.0.2"
+  project_version: "0.0.1"
   device_description: "Control for Endo LED Lights."
 
 esphome:
@@ -11,11 +11,6 @@ esphome:
   project:
     name: "taki-d.endo-lighting-controller"
     version: "${project_version}"
-  on_boot:
-    priority: 1000
-    then:
-      - lambda: |- 
-          system_phy_set_powerup_option(2);
 
 dashboard_import:
   package_import_url: github://taki-d/endo_lighting_controller/esphome.yaml@main

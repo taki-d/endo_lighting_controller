@@ -1,0 +1,66 @@
+substitutions:
+  device_name: endo-lighting-controller
+  friendly_name: Endo Lighting Controller
+  project_version: "0.0.1"
+  device_description: "Control for Endo LED Lights."
+
+esphome:
+  name: '${device_name}'
+  comment: '${device_description}'
+  name_add_mac_suffix: true
+  project:
+    name: "taki-d.endo-lighting-controller"
+    version: "${project_version}"
+
+dashboard_import:
+  package_import_url: github://taki-d/endo_lighting_controller/esphome.yaml@main
+
+esp8266:
+  board: esp12e
+
+# Enable logging
+logger:
+
+# Allow OTA updates
+ota:
+
+# Allow provisioning Wi-Fi via serial
+improv_serial:
+
+wifi:
+  # Set up a wifi access point
+  ap:
+    ssid: '${friendly_name}'
+
+# In combination with the `ap` this allows the user
+# to provision wifi credentials to the device via WiFi AP.
+captive_portal:
+
+# To have a "next url" for improv serial
+web_server:
+
+status_led:
+  pin:
+    number: GPIO2
+    inverted: true
+
+light:
+  - platform: monochromatic
+    name: '${friendly_name}'
+    internal: false
+    restore_mode: RESTORE_DEFAULT_ON
+    output: pwm_output
+    default_transition_length: 0.5s
+    on_turn_on:
+    - output.turn_on: power_output
+    on_turn_off:
+    - output.turn_off: power_output
+
+output:
+  - platform: esp8266_pwm
+    id: pwm_output
+    pin: GPIO14
+    frequency: 1000 Hz
+  - platform: gpio
+    id: power_output
+    pin: GPIO12

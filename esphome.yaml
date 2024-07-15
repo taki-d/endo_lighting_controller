@@ -21,8 +21,11 @@ esp8266:
 # Enable logging
 logger:
 
+api:
+
 # Allow OTA updates
 ota:
+  - platform: esphome
 
 # Allow provisioning Wi-Fi via serial
 improv_serial:
